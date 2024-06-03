@@ -19,9 +19,9 @@ export class MyElement extends LitElement {
 
   /**
    * The number of times the button has been clicked.
-   */
-  @property({ type: Number })
-  count = 5;
+   *
+   * @property({ type: Number })
+  count = 5;*/
 
   render() {
     return html`
@@ -46,9 +46,9 @@ export class MyElement extends LitElement {
     `;
   }
 
-  private _onClick() {
+  /*private _onClick() {
     this.count++;
-  }
+  }*/
 
   static styles = css`
     :host {
